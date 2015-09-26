@@ -1,0 +1,202 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+
+    <title>GPars: GPars The Groovy concurrency and parallelism framework for Groovy and Java code.</title>
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link rel="stylesheet" href="css/foundation.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500" rel="stylesheet" type="text/css" />
+    <link href="css/charter-font.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/prism.css" />
+    <link rel="stylesheet" href="css/gpars.css" />
+
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="js/prism.js"></script>
+
+</head>
+<body>
+
+    <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area">
+            <li class="name">
+                <h1>
+                    <a href="/">GPars</a>
+                </h1>
+            </li>
+        </ul>
+        <section class="top-bar-section">
+            <!-- right nav -->
+            <ul class="right">
+                <li class="has-dropdown">
+                    <a href="#">About</a>
+                    <ul class="dropdown">
+                        <li>
+                            <a href="#">News</a>
+                        </li>
+                        <li>
+                            <a href="#">Events</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Getting Started</a>
+                </li>
+                <li>
+                    <a href="#">Docs</a>
+                </li>
+                <li>
+                    <a href="#">Download</a>
+                </li>
+            </ul>
+        </section>
+    </nav>
+
+    <div class="row">
+        <div class="medium-12 columns text-center">
+            <img src="img/gpars_logo_large.png" id="homepage-hero-logo" />
+        </div>
+    </div>
+
+    <div class="ro">
+        <div class="medium-12 columns text-center">
+            <h1>The Groovy Concurrency and Parallelism Framework</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="medium-6 columns">
+            <h5>Dataflows</h5>
+            <div class="row">
+                <div class="medium-2 columns">
+                    <img src="img/dataflow.png" />
+                </div>
+                <div class="medium-10 columns">
+                    A safe and robust concurrency model enabling completely deterministic programs with no race
+                    conditions or live-locks
+                </div>
+            </div>
+        </div>
+        <div class="medium-6 columns">
+            <h5>Actors</h5>
+            <div class="row">
+                <div class="medium-2 columns">
+                    <img src="img/actor.png" />
+                </div>
+                <div class="medium-10 columns">
+                    Independent objects exchanging messages with no mutable shared state, avoiding deadlocks
+                    and starvation
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="medium-6 columns">
+            <h5>CSPs</h5>
+            <div class="row">
+                <div class="medium-2 columns">
+                    <img src="img/dataflow.png" />
+                </div>
+                <div class="medium-10 columns">
+                    A safe and robust concurrency model enabling completely deterministic programs with no race
+                    conditions or live-locks
+                </div>
+            </div>
+        </div>
+        <div class="medium-6 columns">
+            <h5>Agents</h5>
+            <div class="row">
+                <div class="medium-2 columns">
+                    <img src="img/dataflow.png" />
+                </div>
+                <div class="medium-10 columns">
+                    A safe and robust concurrency model enabling completely deterministic programs with no race
+                    conditions or live-locks
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="medium-6 columns">
+            <h5>Concurrent Collections</h5>
+            <div class="row">
+                <div class="medium-2 columns">
+                    <img src="img/dataflow.png" />
+                </div>
+                <div class="medium-10 columns">
+                    A safe and robust concurrency model enabling completely deterministic programs with no race
+                    conditions or live-locks
+                </div>
+            </div>
+        </div>
+        <div class="medium-6 columns">
+            <h5>Async Functions</h5>
+            <div class="row">
+                <div class="medium-2 columns">
+                    <img src="img/dataflow.png" />
+                </div>
+                <div class="medium-10 columns">
+                    A safe and robust concurrency model enabling completely deterministic programs with no race
+                    conditions or live-locks
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="medium-6 columns">
+            <h5>Fork/Join</h5>
+            <div class="row">
+                <div class="medium-2 columns">
+                    <img src="img/dataflow.png" />
+                </div>
+                <div class="medium-10 columns">
+                    A safe and robust concurrency model enabling completely deterministic programs with no race
+                    conditions or live-locks
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--
+    <footer class="row">
+        <div class="large-12 columns">
+            <hr/>
+            <div class="row">
+                <div class="large-6 columns">
+                    <p>© Copyright no one at all. Go to town.</p>
+                </div>
+                <div class="large-6 columns">
+                    <ul class="inline-list right">
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                        <li><a href="#">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+-->
+
+</body>
+</html>
+
+<!--<pre><code class="language-groovy">import static groovyx.gpars.dataflow.Dataflow.task
+final def x = new DataflowVariable()
+final def y = new DataflowVariable()
+final def z = new DataflowVariable()
+task {
+z << x.val + y.val
+println "Result: ${z.val}"
+}
+task {
+x << 10
+}
+task {
+y << 5
+}</code></pre>-->
